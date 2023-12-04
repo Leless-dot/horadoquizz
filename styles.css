@@ -149,15 +149,12 @@ body {
 	color: #fff;
 }
 
-#next-btn{
-	
+#next-btn {
     align-items: center;
     justify-content: center;
-    /* Centraliza verticalmente e remove a margem superior */
     width: 50%;
     max-width: 200px;
-	margin-bottom: 50px;
-	margin-left: 500px;
+    margin: 50px auto; /* Centraliza verticalmente e horizontalmente */
     height: 50px;
     border-radius: 20px;
     background-color: #cddde8;
