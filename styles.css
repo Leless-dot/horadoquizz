@@ -1,0 +1,222 @@
+/* GERAL */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+	background-color: #ffffff;
+	color: #fff;
+}
+
+.hide {
+	display: none !important;
+}
+
+#main-title {
+	padding: 40px 0;
+	text-align: center;
+	background-color: #2d425a;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+#banner-image {
+    width: 180px;
+	margin: 15px;
+
+}
+
+#topo{
+	color: #000;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	
+}
+
+#topo p {
+	margin-left: 720px;
+}
+
+#logo-image {
+    width: 150px; /* Ajusta o tamanho da imagem pequena */
+    border-radius: 50%; /* Adiciona bordas arredondadas à imagem pequena */
+    margin-right: 10px; /* Adiciona espaço entre a imagem pequena e o título */
+}
+
+#quiz-title {
+    font-size: 24px; /* Ajusta o tamanho do título */
+}
+/* SCORE CONTAINER */
+
+#score-container {
+	background-color: #cddde8;
+	color: #000;
+	text-align: center;
+	width: 300px;
+	margin: 50px auto;
+	padding: 25px;
+	border-radius: 20px;
+}
+
+#score-container p {
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+#score-container #display-score {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+#correct-answers {
+	font-weight: bold;
+	color: #40b576;
+}
+
+#questions-qty {
+	font-weight: bold;
+	color: #075ea4;
+}
+
+#restart {
+	background-color: #e78230;
+	color: #fff;
+	font-weight: bold;
+	height: 50px;
+	border-radius: 25px;
+	border: 2px solid transparent;
+	width: 180px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#restart:hover {
+	background-color: transparent;
+	border-color: #e78230;
+	color: #e78230;
+}
+
+/* Quizz container */
+
+#quizz-container {
+    width: 80%;
+    margin: 10px auto; /* Centraliza na tela */
+    border: 1px solid #cddde8;
+    padding: 25px;
+    border-radius: 25px;
+    box-sizing: border-box; /* Adiciona box-sizing */
+    background-color: #28704a; /* Cor verde desejada */
+}
+
+#question {
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+#question-number {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#answers-box button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto; /* Centraliza verticalmente e remove a margem superior */
+    width: 80%;
+    max-width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #cddde8;
+    border: 2px solid transparent;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+#answers-box button:hover {
+	background-color: #30e33cc7;
+	color: #fff;
+}
+
+#next-btn{
+	
+    align-items: center;
+    justify-content: center;
+    /* Centraliza verticalmente e remove a margem superior */
+    width: 50%;
+    max-width: 200px;
+	margin-bottom: 50px;
+	margin-left: 500px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #cddde8;
+    border: 2px solid transparent;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#next-btn:hover {
+	background-color: #30e33cc7;
+	color: #fff;
+}
+
+
+#answers-box .btn-letter {
+    font-size: 24px; /* Ajusta o tamanho da fonte para 24px */
+    font-weight: bold;
+    background-color: #e78230;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 30px; /* Ajusta a altura da linha para 30px */
+    text-align: center;
+    text-transform: uppercase;
+    flex: 0 0 30px; /* Ajusta a largura do ícone para 30px */
+}
+
+.question-answer {
+	flex: 1 1 0;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+#quizz-container .wrong-answer,
+#quizz-container .wrong-answer .btn-letter {
+	background-color: #e62210;
+	color: #fff;
+}
+
+#quizz-container .correct-answer,
+#quizz-container .correct-answer .btn-letter {
+	background-color: #40b576;
+	color: #fff;
+}
+
+/* RESPONSIVO */
+@media (max-width: 450px) {
+	#quizz-container {
+		border: none;
+		width: 90%; /* Ajusta para 90% na versão responsiva */
+		margin: 50px auto; /* Centraliza na tela */
+	}
+
+	#answers-box button {
+		width: 100%;
+	}
+
+	#score-container {
+		width: 90%;
+	}
+}
