@@ -151,14 +151,14 @@ body {
 
 #next-btn {
 	
-    width: 50%;
+    /*width: 50%;*/
     max-width: 200px;
     margin: 50px auto; /* Centraliza verticalmente e horizontalmente */
     height: 50px;
     border-radius: 20px;
     background-color: #cddde8;
     border: 2px solid transparent;
-    text-align: center;
+    /*text-align: center;*/
     color: #000;
     cursor: pointer;
     transition: 0.5s;
