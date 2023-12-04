@@ -112,6 +112,7 @@ body {
     border-radius: 25px;
     box-sizing: border-box; /* Adiciona box-sizing */
     background-color: #28704a; /* Cor verde desejada */
+	text-align: center;
 }
 
 #question {
@@ -218,6 +219,6 @@ body {
 	 #next-btn {
        		width: 100%;
         margin: 10px 0; /* Adiciona margem superior e inferior para evitar a centralização */
-        text-align: left;
+        
     }
 }
