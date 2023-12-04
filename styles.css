@@ -219,4 +219,7 @@ body {
 	#score-container {
 		width: 90%;
 	}
+	 #next-btn {
+        width: 80%; 
+    }
 }
