@@ -220,7 +220,8 @@ body {
 		width: 90%;
 	}
 	 #next-btn {
-       		width: 100%; 
-		 z-index: 999;
+       		width: 100%;
+        margin: 10px 0; /* Adiciona margem superior e inferior para evitar a centralização */
+        text-align: left;
     }
 }
