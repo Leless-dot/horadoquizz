@@ -220,6 +220,7 @@ body {
 		width: 90%;
 	}
 	 #next-btn {
-       		width: 20%; 
+       		width: 100%; 
+		 z-index: 999;
     }
 }
