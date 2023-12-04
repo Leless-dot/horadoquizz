@@ -150,9 +150,7 @@ body {
 }
 
 #next-btn {
-	display: flex;
-    align-items: center;
-    justify-content: center;
+	
     width: 50%;
     max-width: 200px;
     margin: 50px auto; /* Centraliza verticalmente e horizontalmente */
